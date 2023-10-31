@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "catalog-matcher"
+authors = [
+    {name = "Sebastian Kamann", email = "s.kamann@ljmu.ac.uk"},
+]
+version = "0.0.1"
+dependencies = [
+    "tqdm",
+    "numpy",
+    "matplotlib",
+    "astropy",
+    "scipy >= 1.5"
+]
